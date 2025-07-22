@@ -96,6 +96,23 @@ main{
     color: #FF900E;
 }
 
+/* some facts start  */
+
+.some-facts{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 3rem;
+    text-align: center;
+
+}
+.some-facts .box{
+    border: 2px solid rgba(255, 166, 0, 0.148);
+    margin: 30px;
+    height: 130px;
+    width: 210px;
+    align-content: center;
+}
+
 
 
 
@@ -113,6 +130,9 @@ main{
     .Quick-list-description{
         margin: 0 30px;
     }
+      .some-facts{
+        grid-template-columns: 1fr;
+      }
 
 }
 /* mediam */
@@ -122,5 +142,14 @@ main{
     }
      .Quick-list-description{
         margin: 0 30px;
+    }
+    /* some facts section  */
+    .some-facts{
+        grid-template-columns: repeat(2,1fr);
+        gap: 1rem;
+
+    }
+    .some-facts .box{
+        margin: 10px;
     }
 }

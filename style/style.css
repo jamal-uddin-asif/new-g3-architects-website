@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* sharde style  */
+.text-gray{
+    color: #424242;
+}
+.text-light-gray{
+    color: #727272;
+    /* font-size: 1rem; */
+}
+.btn-primary{
+    background-color: #FF900E;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+}
+/* sharde style end  */
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #ff8f0e1d;
+  
+
+}
+.work-sans{
+  font-family: "Work Sans", sans-serif;
+}
+.nav,.banner{
+      max-width: 1440px;
+    margin: 0 auto;
+}
+.banner-content{
+    max-width: 840px;
+    text-align: center;
+}
+.banner-heading{
+    font-weight: bold;
+    font-size: 4rem;
+    margin-bottom:20px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.nav li{
+    list-style: none;
+    display: inline;
+    margin-right: 30px;
+}
+.banner-content{
+    /* width: 850px; */
+    margin: 0 auto;
+}
+.banner-img img{
+  width: 100%;
+}
+.banner-button{
+    margin: 30px 0 50px 0 ;
+}
+.banner > img{
+    width: 100%;
+}
+/* Quick-list section strat  */
+.Quick-list{
+    
+}
